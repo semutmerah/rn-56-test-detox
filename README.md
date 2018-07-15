@@ -5,8 +5,8 @@ This project was created with `react-native init` to test some remaining issues 
 - Clone this repo
 - Change to repo directory
 - `yarn`
-- `yarn test`
 - `detox build`
+- `yarn test`
 - `detox test`
 
 *Expected behavior*:
