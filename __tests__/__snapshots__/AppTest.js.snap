@@ -5,45 +5,76 @@ exports[`App matches Snapshot 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
       "justifyContent": "center",
+      "paddingTop": 20,
     }
   }
+  testID="welcome"
 >
   <Text
     style={
       Object {
-        "fontSize": 20,
-        "margin": 10,
-        "textAlign": "center",
+        "fontSize": 25,
+        "marginBottom": 30,
       }
     }
   >
-    Welcome to React Native!
+    Welcome
   </Text>
-  <Text
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
+        "opacity": 1,
       }
     }
+    testID="hello_button"
   >
-    To get started, edit App.js
-  </Text>
-  <Text
+    <Text
+      style={
+        Object {
+          "color": "blue",
+          "marginBottom": 20,
+        }
+      }
+    >
+      Say Hello
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
+        "opacity": 1,
       }
     }
+    testID="world_button"
   >
-    Press Cmd+R to reload,
-Cmd+D or shake for dev menu
-  </Text>
+    <Text
+      style={
+        Object {
+          "color": "blue",
+          "marginBottom": 20,
+        }
+      }
+    >
+      Say World
+    </Text>
+  </View>
 </View>
 `;
