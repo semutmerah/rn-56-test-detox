@@ -14,7 +14,7 @@
     "@babel/core": "^7.0.0-beta",
     "babel-core": "7.0.0-bridge.0",
     "babel-preset-react-native": "5.0.2",
-    "detox": "^8.0.0",
+    "detox": "^9.0.3",
     "jest": "^23.2.0",
     "react-test-renderer": "16.4.1"
   },
