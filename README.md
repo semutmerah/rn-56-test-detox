@@ -19,5 +19,5 @@ All 3 tests files pass on Mac OS machine and Ubuntu machine
 
 `detox test` passes on Mac OS machine (High Sierra 10.13.6)
 
-`detox test` failed on Ubuntu machine
+`detox test` failed on Ubuntu machine (18.04 with kernel 4.15)
 
