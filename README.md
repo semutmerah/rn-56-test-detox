@@ -11,12 +11,13 @@ This project was created with `react-native init` to test some remaining issues 
 
 *Expected behavior*:
 
-All 3 tests files pass
+All 3 tests files pass on Mac OS machine and Ubuntu machine
 
 *Actual behavior*:
 
 `yarn test` passes.
 
-`detox test` fails with the following error:
-> Plugin 0 specified in "/.../node_modules/babel-preset-react-native/index.js" provided an invalid property of "default" (While processing preset: "/.../node_modules/babel-preset-react-native/index.js")
+`detox test` passes on Mac OS machine (High Sierra 10.13.6)
+
+`detox test` failed on Ubuntu machine
 
